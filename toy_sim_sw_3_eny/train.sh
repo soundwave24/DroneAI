@@ -1,0 +1,3 @@
+python train_rainbow_dqn.py
+python train_recurrent_ppo.py
+python train_ppo_curioosity.py
