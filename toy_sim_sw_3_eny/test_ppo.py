@@ -5,6 +5,7 @@ test_ppo.py  (toy_sim_sw_3_eny — dynamic entity environment)
 Evaluate the original PPO agent (trained by train.py) on the Phase 2
 OuterRimEnv with mobile Separatist and Republic ships.
 
+# Usage 바뀌었음 나중에 처리 TODO
 Usage:
     python test_ppo.py
     python test_ppo.py --no-render --episodes 10

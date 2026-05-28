@@ -32,7 +32,7 @@ Key differences from Phase 1 (toy_sim_sw_2):
       * vision / 4.0  normalised
       * danger        (already 0..1)
       * reward_memory tanh-normalised (/ 10.0)
-    - All paths updated to Training_Star_Wars_Galaxy_Phase_2/
+    - All paths updated to 3_eny/
 """
 
 import os
@@ -53,7 +53,7 @@ from environment import OuterRimEnv
 # Paths
 # ---------------------------------------------------------------------------
 PROJECT_ROOT     = os.path.dirname(os.path.abspath(__file__))
-TRAINING_DIR     = os.path.join(PROJECT_ROOT, "Training_Star_Wars_Galaxy_Phase_2")
+TRAINING_DIR     = os.path.join(PROJECT_ROOT, "3_eny")
 LOG_DIR          = os.path.join(TRAINING_DIR, "logs_curiosity")
 CHECKPOINT_DIR   = os.path.join(TRAINING_DIR, "Saved RL Models", "PPO_Curiosity_checkpoints")
 FINAL_MODEL_PATH = os.path.join(TRAINING_DIR, "Saved RL Models", "PPO_Curiosity_Model_Star_Wars_Galaxy")
@@ -66,7 +66,7 @@ os.makedirs(CHECKPOINT_DIR, exist_ok=True)
 # Hyperparameters
 # ---------------------------------------------------------------------------
 # PPO training
-# Reduced from 1_000_000 to 200_000 for practical training time in Phase 2.
+# 백만번 돌리면 너무 오래걸려서 일단 20만번으로 줄임. 나중에 필요하면 더 늘리기 TODO
 TOTAL_TIMESTEPS = 200_000
 CHECKPOINT_FREQ = 50_000
 PPO_N_STEPS     = 2048

@@ -20,7 +20,7 @@ This is a repository for the DroneAI project(presented at a Conference, Defense 
 # Rainbow DQN
 ## Paper
 - [Rainbow (AAAI 2018)](https://ojs.aaai.org/index.php/AAAI/article/view/11796) · [arXiv:1710.02298](https://arxiv.org/abs/1710.02298)*
-| [2] | Deep Reinforcement Learning with Double Q-learning | van Hasselt, H., Guez, A., Silver, D. | AAAI 2016 | [arXiv:1509.06461](https://arxiv.org/abs/1509.06461) |
+- Reinforcement Learning with Double Q-learning | van Hasselt, H., Guez, A., Silver, D. | AAAI 2016 | [arXiv:1509.06461](https://arxiv.org/abs/1509.06461) |
 
 **구성 컴포넌트 논문:**
 - **Double DQN**: van Hasselt, H., et al. (2016). *Deep Reinforcement Learning with Double Q-learning*. AAAI 2016.
