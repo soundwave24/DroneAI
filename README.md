@@ -33,10 +33,9 @@ Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-War
   - https://arxiv.org/abs/1706.10295
 - **C51 (Distributional RL)**: Bellemare, M.G., et al. (2017). *A Distributional Perspective on Reinforcement Learning*. ICML 2017.
   - https://arxiv.org/abs/1707.06887
-[5] Ziebart, B. D., Maas, A., Bagnell, J. A., & Dey, A. K. (2008).
-- **Maximum Entropy Inverse Reinforcement Learning**. *AAAI Conference on Artificial Intelligence*. (Maximum entropy RL의 이론적 기반)
-[]([1] Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). 
-- **Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**. *Proceedings of the 35th International Conference on Machine Learning (ICML 2018)*. arXiv:1801.01290. https://arxiv.org/abs/1801.01290)
+- **Maximum Entropy Inverse Reinforcement Learning**. Ziebart, B. D., Maas, A., Bagnell, J. A., & Dey, A. K. (2008). *AAAI Conference on Artificial Intelligence*.
+
+- **Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**. ([1] Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Proceedings of the 35th International Conference on Machine Learning (ICML 2018)*. arXiv:1801.01290. https://arxiv.org/abs/1801.01290)
 
 ## Code References
 - [**dopamine** (Google)](https://github.com/google/dopamine)
