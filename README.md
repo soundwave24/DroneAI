@@ -50,3 +50,10 @@ Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-War
 - [**Stable-Baselines3** (Python, 공식)](https://github.com/DLR-RM/stable-baselines3)
 - [**spinningup** (PyTorch/TensorFlow, OpenAI)](https://github.com/openai/spinningup)
 - [**rlkit** (PyTorch, 연구용)](https://github.com/rail-berkeley/rlkit): Berkeley의 SAC 구현 (원저자 소속)
+
+# PPO + ICM
+## Paper
+- **Pathak, D., Agrawal, P., Efros, A. A., & Darrell, T. (2017).** Curiosity-driven Exploration by Self-Supervised Prediction. *Proceedings of the 34th International Conference on Machine Learning (ICML 2017)*, Vol. 70, pp. 2778–2787. PMLR. [arXiv:1705.05363](https://arxiv.org/abs/1705.05363)
+
+## Code References
+- [**Stable-Baselines3 Team (2021).**](https://github.com/DLR-RM/stable-baselines3)
