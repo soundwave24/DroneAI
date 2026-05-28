@@ -35,7 +35,7 @@ Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-War
   - https://arxiv.org/abs/1707.06887
 - **Maximum Entropy Inverse Reinforcement Learning**. Ziebart, B. D., Maas, A., Bagnell, J. A., & Dey, A. K. (2008). *AAAI Conference on Artificial Intelligence*.
 
-- **Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**. ([1] Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Proceedings of the 35th International Conference on Machine Learning (ICML 2018)*. arXiv:1801.01290. https://arxiv.org/abs/1801.01290)
+- **Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**. (Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Proceedings of the 35th International Conference on Machine Learning (ICML 2018)*. arXiv:1801.01290. https://arxiv.org/abs/1801.01290)
 
 ## Code References
 - [**dopamine** (Google)](https://github.com/google/dopamine)
@@ -43,7 +43,7 @@ Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-War
 
 # SAC
 ## Paper
-- [SAC](Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor*. ICML 2018.)
+- Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor*. ICML 2018.
 
 ## Code references
 - [**Stable-Baselines3** (Python, 공식)](https://github.com/DLR-RM/stable-baselines3)
@@ -66,14 +66,10 @@ Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-War
 
 # Recurrent PPO
 ## Paper
-- **Hochreiter, S., & Schmidhuber, J.** (1997).  
-*Long Short-Term Memory.*  
-Neural Computation, 9(8), 1735–1780.  
+- **Hochreiter, S., & Schmidhuber, J.** (1997). *Long Short-Term Memory.* Neural Computation, 9(8), 1735–1780.  
 https://doi.org/10.1162/neco.1997.9.8.1735
 - **Ni, T., et al.** (2022).  
-*Recurrent Model-Free RL Can Be a Strong Baseline for Many POMDPs.*  
-ICML 2022.  
-https://blog.ml.cmu.edu/2022/08/26/recurrent-model-free-rl-can-be-a-strong-baseline-for-many-pomdps-2/
+*Recurrent Model-Free RL Can Be a Strong Baseline for Many POMDPs.* ICML 2022. https://blog.ml.cmu.edu/2022/08/26/recurrent-model-free-rl-can-be-a-strong-baseline-for-many-pomdps-2/
 
 ## Code References
 - [*Recurrent PPO with Truncated BPTT — Reference Implementation.*](https://github.com/MarcoMeter/recurrent-ppo-truncated-bptt) 
