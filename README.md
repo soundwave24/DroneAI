@@ -3,3 +3,50 @@
 This is a repository for the DroneAI project(presented at a Conference, Defense M&S Seminar), which focuses on developing artificial intelligence algorithms for autonomous drones.
 
 Note that Code base is [WindJammer6](https://github.com/WindJammer6/35.-Star-Wars-Reinforcement-Learning)
+
+# Frontier-based Exploration
+## Paper
+- Yamauchi, B. (1997). *A frontier-based approach for autonomous exploration*. Proceedings of IEEE International Symposium on Computational Intelligence in Robotics and Automation (CIRA'97).
+
+## Code References
+- [**Frontier-Based-Exploration** (Python, educational)](https://github.com/Topiwala/Frontier-Based-Exploration)
+
+# CPP (Coverage Path Planning)
+## Paper
+- Choset, H., & Pignon, P. (1998). *Coverage path planning: The boustrophedon cellular decomposition*. Proceedings of International Conference on Field and Service Robotics.
+## Code References
+- [**coverage-path-planning-python** (Python Robotics)](https://github.com/AtsushiSakai/PythonRobotics)
+
+# Rainbow DQN
+## Paper
+- [Rainbow (AAAI 2018)](https://ojs.aaai.org/index.php/AAAI/article/view/11796) · [arXiv:1710.02298](https://arxiv.org/abs/1710.02298)*
+| [2] | Deep Reinforcement Learning with Double Q-learning | van Hasselt, H., Guez, A., Silver, D. | AAAI 2016 | [arXiv:1509.06461](https://arxiv.org/abs/1509.06461) |
+
+**구성 컴포넌트 논문:**
+- **Double DQN**: van Hasselt, H., et al. (2016). *Deep Reinforcement Learning with Double Q-learning*. AAAI 2016.
+  - https://arxiv.org/abs/1509.06461
+- **Dueling DQN**: Wang, Z., et al. (2016). *Dueling Network Architectures for Deep Reinforcement Learning*. ICML 2016.
+  - https://arxiv.org/abs/1511.06581
+- **Prioritized Experience Replay**: Schaul, T., et al. (2016). *Prioritized Experience Replay*. ICLR 2016.
+  - https://arxiv.org/abs/1511.05952
+- **Noisy Networks**: Fortunato, M., et al. (2018). *Noisy Networks for Exploration*. ICLR 2018.
+  - https://arxiv.org/abs/1706.10295
+- **C51 (Distributional RL)**: Bellemare, M.G., et al. (2017). *A Distributional Perspective on Reinforcement Learning*. ICML 2017.
+  - https://arxiv.org/abs/1707.06887
+[5] Ziebart, B. D., Maas, A., Bagnell, J. A., & Dey, A. K. (2008).
+- **Maximum Entropy Inverse Reinforcement Learning**. *AAAI Conference on Artificial Intelligence*. (Maximum entropy RL의 이론적 기반)
+[]([1] Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). 
+- **Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor**. *Proceedings of the 35th International Conference on Machine Learning (ICML 2018)*. arXiv:1801.01290. https://arxiv.org/abs/1801.01290)
+
+## Code References
+- [**dopamine** (Google)](https://github.com/google/dopamine)
+- [**rainbow-is-all-you-need** (PyTorch, 교육용)](https://github.com/Curt-Park/rainbow-is-all-you-need)
+
+# SAC
+## Paper
+- [SAC](Haarnoja, T., Zhou, A., Abbeel, P., & Levine, S. (2018). *Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor*. ICML 2018.)
+
+## Code references
+- [**Stable-Baselines3** (Python, 공식)](https://github.com/DLR-RM/stable-baselines3)
+- [**spinningup** (PyTorch/TensorFlow, OpenAI)](https://github.com/openai/spinningup)
+- [**rlkit** (PyTorch, 연구용)](https://github.com/rail-berkeley/rlkit): Berkeley의 SAC 구현 (원저자 소속)
